@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>my.edu.utem.ftmk.dad</groupId>
-	<artifactId>restoredrapp</artifactId>
+	<artifactId>restorderapp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>restoredrapp</name>
-	<description>Lab exercise for REST provider application</description>
+	<name>restorderapp</name>
+	<description>Lab Exercise for REST provider application</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -41,6 +41,21 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId> 
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId> <version>4.6.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.webjars</groupId> <artifactId>jquery</artifactId> <version>3.6.1</version>
+		</dependency> 
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>webjars-locator-core</artifactId> 
 		</dependency>
 	</dependencies>
 
